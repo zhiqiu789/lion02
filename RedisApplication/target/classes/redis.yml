@@ -1,0 +1,8 @@
+Jedis:
+    host: 10.9.251.200
+    port: 8100
+    password: redis001
+    maxTotal: 1024
+    minIdle: 10
+    maxIdle: 512
+    maxWaitMillis: 5000

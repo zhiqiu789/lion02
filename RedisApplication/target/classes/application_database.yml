@@ -1,0 +1,16 @@
+
+spring:
+    datasource:
+        name: collectors
+        url: jdbc:mysql:///day2?characterEncoding=UTF-8
+        username: root
+        password: 123456
+        driver-class-name: com.mysql.jdbc.Driver
+        # \u4F7F\u7528druid\u6570\u636E\u6E90
+        type: com.alibaba.druid.pool.DruidDataSource
+        filters: filter
+        maxActive: 200
+        #\u65E7\u7248\u662F maxActive \u65B0\u7248\u662FmaxTotal
+        maxWait: 6000
+        minIdle: 10
+        maxIdle: 50

@@ -1,0 +1,10 @@
+spring:
+  redis:
+    host: 106.14.72.179
+    password: redis001
+    port: 8100
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
